@@ -1,0 +1,12 @@
+-- Intentionally a no-op in the public version of this project.
+--
+-- This migration was a one-off data correction for the original author's own
+-- Supabase instance (it upgraded a manually created "Guns" tracker and added
+-- the "Plants (Foraging)" tracker on one specific account). It has no schema
+-- changes and nothing to do on any other database; the file is kept only so
+-- migration version history stays consistent for instances that already
+-- applied it.
+--
+-- To add the Guns / Plants (Foraging) trackers to an account, see
+-- add_trackers_for_user() in 20260917120000_add_guns_plants_trackers.sql.
+select 1;
